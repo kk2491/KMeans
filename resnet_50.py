@@ -13,7 +13,7 @@ import numpy as np
 
 HEIGHT = 300
 WIDTH  = 300
-IMAGE_PATH = "/home/kishor/GWM/Meta_Cognition_Experiments/1_Clustering/Dataset/image_dataset/"
+IMAGE_PATH = "/home/kishor/1_Clustering/Dataset/image_dataset/"
 
 
 def build_finetune_model(base_model, dropout, fc_layers, num_classes):

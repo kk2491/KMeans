@@ -13,8 +13,8 @@ from sklearn.cluster import KMeans
 import sys
 import pickle
 
-IMG_DIR = "/home/kishor/GWM/Meta_Cognition_Experiments/1_Clustering/Dataset/image_dataset/"
-SRC_DIR = "/home/kishor/GWM/Meta_Cognition_Experiments/1_Clustering/"
+IMG_DIR = "/home/kishor/1_Clustering/Dataset/image_dataset/"
+SRC_DIR = "/home/kishor/1_Clustering/"
 
 def generate_feature_vector(imagelist, model):
 	
@@ -50,7 +50,7 @@ if __name__ == "__main__":
 	model.summary()
 
 	'''
-	img_path = "/home/kishor/GWM/Meta_Cognition_Experiments/1_Clustering/test.jpg"
+	img_path = "/home/kishor/1_Clustering/test.jpg"
 	img = image.load_img(img_path, target_size = (224, 224))
 	img_data = image.img_to_array(img)
 	img_data = np.expand_dims(img_data, axis = 0)

@@ -3,9 +3,9 @@ import shutil
 import os
 import random
 
-CAT_RAW_DIR = "/home/kishor/GWM/Meta_Cognition_Experiments/1_Clustering/Dataset/raw_dataset/PetImages/Cat/"
-DOG_RAW_DIR = "/home/kishor/GWM/Meta_Cognition_Experiments/1_Clustering/Dataset/raw_dataset/PetImages/Dog/"
-DEST_DIR = "/home/kishor/GWM/Meta_Cognition_Experiments/1_Clustering/Dataset/image_dataset"
+CAT_RAW_DIR = "/home/kishor/1_Clustering/Dataset/raw_dataset/PetImages/Cat/"
+DOG_RAW_DIR = "/home/kishor/1_Clustering/Dataset/raw_dataset/PetImages/Dog/"
+DEST_DIR = "/home/kishor/1_Clustering/Dataset/image_dataset"
 
 def random_selection(path):
 
